@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h3 {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+}
+.choice_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+}
+.buttons_number {
+  border: none;
+  background-color: chocolate;
+  height: 30px;
+  width: 30px;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
