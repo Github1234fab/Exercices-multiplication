@@ -35,7 +35,7 @@ p {
   border-radius: 15px;
 }
 .buttons_number {
-    font-size: 18px;;
+  font-size: 18px;
   border: none;
   background-color: chocolate;
   height: 50px;
@@ -103,7 +103,7 @@ p {
 
 /* .............................................................. */
 /* Section practices chooses */
-.practices_chooses{
+.practices_chooses {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,4 +115,24 @@ p {
   border-radius: 15px;
 }
 
+.practice_one_choose,
+.practice_two_choose,
+.practice_three_choose,
+.practice_four_choose {
+    position: relative;
+}
 
+.practiceChoose_buttonNumberOne,
+.practiceChoose_buttonNumberTwo,
+.practiceChoose_buttonNumberThree,
+.practiceChoose_buttonNumberFour {
+  background-color: coral;
+  border: none;
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  transform: rotate(-3deg);
+  position: absolute;
+  top: -20px;
+}
