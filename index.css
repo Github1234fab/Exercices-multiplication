@@ -42,7 +42,8 @@ p {
   width: 50px;
   color: white;
   border-radius: 40px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
+  border: solid white 3px;
 }
 
 /* .............................................................. */
@@ -69,14 +70,14 @@ p {
   padding: 10px;
 }
 
-.practice_one,
-.practice_two,
-.practice_three,
-.practice_four {
+.practice_CardOne,
+.practice_CardTwo,
+.practice_CardThree,
+.practice_CardFour {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 180px;
+  height: 140px;
   width: 100%;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -135,4 +136,33 @@ p {
   transform: rotate(-3deg);
   position: absolute;
   top: -20px;
+}
+
+.practice_one{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: coral;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.practiceOne_buttonNumber{
+  font-size: 18px;
+  border: none;
+  background-color: chocolate;
+  height: 60px;
+  width: 120px;
+  color: white;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border: solid white 2px;
+  position: absolute;
+  top: -20px;
+  border-radius: 15px;
+  transform: rotate(-3deg);
 }
