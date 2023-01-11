@@ -18,8 +18,8 @@ p {
   font-family: Poppins;
   font-weight: 400;
   font-size: 14px;
-  padding: 5px;
-  line-height: 20px;
+  /* padding: 5px; */
+  /* line-height: 20px; */
 }
 /* .............................................................. */
 /* Section choix table */
@@ -77,21 +77,25 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 120px;
+  height: 180px;
   width: 100%;
- box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   background-color: white;
   padding: 20px;
+  position: relative;
 }
 
 .practice_numberOne,
 .practice_numberTwo,
 .practice_numberThree,
 .practice_numberFour {
-    background-color:coral ;
-    border: none;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  background-color: coral;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  transform: rotate(-3deg);
+  position: absolute;
+  top: -20px;
 }
