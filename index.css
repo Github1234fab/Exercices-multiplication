@@ -9,7 +9,7 @@ h3 {
   text-align: center;
   font-family: Poppins;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   padding: 5px;
   margin-top: 30px;
 }
@@ -17,9 +17,8 @@ p {
   text-align: center;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 14px;
-  /* padding: 5px; */
-  /* line-height: 20px; */
+  font-size: 15px;
+  margin-top: 30px;
 }
 /* .............................................................. */
 /* Section choix table */
@@ -29,30 +28,31 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 180px;
+  height: 200px;
   background-color: bisque;
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 15px;
 }
 .buttons_number {
+    font-size: 18px;;
   border: none;
   background-color: chocolate;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   color: white;
-  border-radius: 15px;
+  border-radius: 40px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* .............................................................. */
-/* Section practices */
+/* Section practices choice */
 
 .practice_choice {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+  height: 350px;
   margin-top: 10px;
   background-color: bisque;
   margin-right: 50px;
@@ -75,7 +75,6 @@ p {
 .practice_four {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   height: 180px;
   width: 100%;
@@ -84,6 +83,7 @@ p {
   background-color: white;
   padding: 20px;
   position: relative;
+  margin-top: 10px;
 }
 
 .practice_numberOne,
@@ -93,9 +93,26 @@ p {
   background-color: coral;
   border: none;
   border-radius: 15px;
-  padding: 20px;
+  height: 50px;
+  width: 100px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   transform: rotate(-3deg);
   position: absolute;
   top: -20px;
 }
+
+/* .............................................................. */
+/* Section practices chooses */
+.practices_chooses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  margin-top: 10px;
+  background-color: bisque;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+
