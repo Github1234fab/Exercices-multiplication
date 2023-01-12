@@ -1,15 +1,15 @@
 //récupération..........................................................................................................................................
 let tableButtons = document.getElementById("tableButtons");
-let liste = document.getElementsByClassName("ListeElements");
-let button = document.getElementById("button");
+// let liste = document.getElementsByClassName("ListeElements");
+// let button = document.getElementById("button");
 let input = document.getElementById("input");
 let tableChoose = document.getElementById("tableChoose");
 let questionFirstPractice = document.getElementById("questionFirstPractice");
-let questionPracticeTwo = document.getElementById("questionPracticeTwo");
-let questionPracticeThree = document.getElementById("questionPracticeThree");
-let questionPracticeFour = document.getElementById("questionPracticeFour");
+// let questionPracticeTwo = document.getElementById("questionPracticeTwo");
+// let questionPracticeThree = document.getElementById("questionPracticeThree");
+// let questionPracticeFour = document.getElementById("questionPracticeFour");
 let FirstPracticeResponseSend = document.getElementById("FirstPracticeResponseSend");
-let ResponseFirstPractice = document.getElementById("ResponseFirstPractice");
+// let ResponseFirstPractice = document.getElementById("ResponseFirstPractice");
 let responseFirstPractice = document.getElementById("responseFirstPractice");
 
 //Logique pour proposer un chiifre aléatoire ..........................................................................................................................................
