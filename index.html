@@ -8,32 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <title>Tables de multiplication</title>
   </head>
   <body>
-      <!-- tables Choice ________________________________________________________________________________________ -->
-    <section class="table_choice">
-      <h3 class="choice_text">Choisi la table avec laquelle tu souhaites jouer!</h3>
-      <div class="Buttons">
-        <button class="table_buttonChoice" id="one">1</button>
-        <button class="table_buttonChoice" id="two">2</button>
-        <button class="table_buttonChoice" id="three">3</button>
-        <button class="table_buttonChoice" id="four">4</button>
-        <button class="table_buttonChoice" id="five">5</button>
-        <button class="table_buttonChoice" id="six">6</button>
-        <button class="table_buttonChoice" id="seven">7</button>
-        <button class="table_buttonChoice" id="height">8</button>
-        <button class="table_buttonChoice" id="nine">9</button>
-        <button class="table_buttonChoice" id="ten">10</button>
-      </div>
-      <p class="table_choose" id="tableChoose"></p>
-    </section>
 
-    <!-- Practice Choice________________________________________________________________________________________ -->
+    <header>
+    </header>
+
+
+ <!-- Practice Choice________________________________________________________________________________________ -->
 
     <section class="practice_choice">
-      <h3 class="practice_choice_txt">Maintenant, choisi un des quatre jeux suivants:</h3>
+      <h2 class="practice_choice_txt">Bienvenue sur ta plateforme d'entraînement !</h2>
+       <h3> Choisis un des quatre jeux suivants:</h3> 
+
          <section class="practices_choices_section">
+
       <div class="practice_CardOne">
         <button class="practice_numberOne" id="one">Jeux N°1</button>
         <p class="practice_one_txt">Le premier chiffre de la multiplication est caché. À toi de le deviner!</p>
@@ -57,6 +48,29 @@
       </section>
     </section>
 
+
+      <!-- tables Choice ________________________________________________________________________________________ -->
+    
+      <main>
+      <section class="table_choice">
+      <h3 class="choice_text">Choisis la table avec laquelle tu souhaites jouer!</h3>
+      <div class="Buttons">
+        <button class="table_buttonChoice" id="one">1</button>
+        <button class="table_buttonChoice" id="two">2</button>
+        <button class="table_buttonChoice" id="three">3</button>
+        <button class="table_buttonChoice" id="four">4</button>
+        <button class="table_buttonChoice" id="five">5</button>
+        <button class="table_buttonChoice" id="six">6</button>
+        <button class="table_buttonChoice" id="seven">7</button>
+        <button class="table_buttonChoice" id="height">8</button>
+        <button class="table_buttonChoice" id="nine">9</button>
+        <button class="table_buttonChoice" id="ten">10</button>
+      </div>
+      <p class="table_choose" id="tableChoose"></p>
+    </section>
+
+   
+
   <!-- First practice________________________________________________________________________________________ -->
 
     <section class="practices_chooses">
@@ -68,7 +82,7 @@
         <div id="questionFirstPractice" class="question_firstPractice"></div>
         <p class="first_practice_txt">Quelle est ta réponse?</p>
           <input class="your_choice_firstPractice" id="ResponseFirstPractice" type = "number"></input>
-          <button id="FirstPracticeResponseSend">Clique pour savoir si tu as raison!!</button>
+          <button class = "FirstPractice_ResponseSend" id="FirstPracticeResponseSend">Clique pour savoir si tu as raison!!</button>
           <p class="response_firstPractice" id="responseFirstPractice"></p>
       </div>
 
@@ -96,6 +110,10 @@
          <input class="your_choice_four" id="chooseFour" type = "number"></input>
       </div> -->
       </section>
+</main>
+      <footer>
+
+      </footer>
 
     <script src="index.js"></script>
   </body>

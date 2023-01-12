@@ -5,46 +5,45 @@ body {
   text-decoration: none;
 }
 
+header{
+  height: 100px;
+  width:100%;
+  background-color: cadetblue;
+}
+
+footer{
+   height: 100px;
+  width:100%;
+  background-color: cadetblue;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  font-family: Gochi Hand;
+  font-weight: 500;
+  font-size: 45px;
+  color: rgb(35, 35, 150);
+}
+
 h3 {
   text-align: center;
   font-family: Poppins;
   font-weight: 500;
   font-size: 18px;
-  padding: 5px;
-  margin-top: 30px;
 }
 p {
   text-align: center;
   font-family: Poppins;
   font-weight: 400;
   font-size: 15px;
-  margin-top: 30px;
 }
-/* .............................................................. */
-/* Section choix table */
 
-.table_choice {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 200px;
-  background-color: bisque;
-  margin-right: 50px;
-  margin-left: 50px;
-  border-radius: 15px;
-}
-.table_buttonChoice {
-  font-size: 18px;
-  border: none;
-  background-color: chocolate;
-  height: 50px;
-  width: 50px;
-  color: white;
-  border-radius: 40px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
-  border: solid white 3px;
-}
 
 /* .............................................................. */
 /* Section practices choice */
@@ -53,12 +52,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: 450px;
   margin-top: 10px;
   background-color: bisque;
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 15px;
+  gap: 10px;
 }
 
 .practices_choices_section {
@@ -77,7 +77,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 180px;
+  height: 140px;
   width: 100%;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -102,17 +102,46 @@ p {
   top: -20px;
 }
 
+
+
+/* .............................................................. */
+/* Section choix table */
+
+.table_choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: bisque;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 15px;
+}
+.table_buttonChoice {
+  font-size: 18px;
+  border: none;
+  background-color: chocolate;
+  height: 50px;
+  width: 50px;
+  color: white;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
+  border: solid white 3px;
+}
+
 /* .............................................................. */
 /* Section practices chooses */
+
 .practices_chooses {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: 100%;
   margin-top: 10px;
   background-color: bisque;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
   border-radius: 15px;
 }
 
@@ -123,7 +152,7 @@ p {
   position: relative;
 }
 
-.practiceChoose_buttonNumberOne,
+/* .practiceChoose_buttonNumberOne,
 .practiceChoose_buttonNumberTwo,
 .practiceChoose_buttonNumberThree,
 .practiceChoose_buttonNumberFour {
@@ -133,23 +162,24 @@ p {
   height: 50px;
   width: 100px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-  transform: rotate(-3deg);
+  transform: rotate(-15deg);
   position: absolute;
-  top: -20px;
-}
+  top: -30px;
+} */
 
 .first_practice {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  height: 200px;
+  align-items: center;
+  height: 300px;
   width: 400px;
   border-radius: 20px;
   background-color: coral;
   padding: 20px;
   position: relative;
   margin-top: 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset ;
+  gap: 8px;
 }
 
 .first_practice_button {
@@ -164,9 +194,9 @@ p {
   border: solid white 2px;
   position: absolute;
   top: -20px;
-  left: -20px;
+  left: -30px;
   border-radius: 15px;
-  transform: rotate(-5deg);
+  transform: rotate(-15deg);
 }
 
 .question_firstPractice {
@@ -178,6 +208,31 @@ p {
  
 }
 
-.practice_one_txt {
-  font-size: 18px;
+
+.your_choice_firstPractice{
+  border-radius: 20px;
+  height: 50px;
+  width: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2) inset;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-align: center;
 }
+
+.FirstPractice_ResponseSend{
+  border-radius: 6px 12px  24px  5px;
+  height: 50px;
+  width: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-align: center;
+  background-color: rgb(117, 163, 248);
+  color: white;
+}
+
+response_firstPractice

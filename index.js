@@ -42,7 +42,7 @@ FirstPracticeResponseSend.addEventListener("click", () => {
   if (randomNumber == ResponseFirstPractice.value) {
     responseFirstPractice.innerHTML = "Yeah!! Tu gagnes!";
   } else {
-    responseFirstPractice.innerHTML = "Yeah!! Tu gagnes!";"Uuuurps! T'es vraiment sûr, là?!!";
+    responseFirstPractice.innerHTML = "Uuuurps! T'es vraiment sûr, là?!!!!!!";
   }
 });
 
