@@ -5,19 +5,19 @@ body {
   text-decoration: none;
 }
 
-header{
+header {
   height: 100px;
-  width:100%;
+  width: 100%;
   background-color: cadetblue;
 }
 
-footer{
-   height: 100px;
-  width:100%;
+footer {
+  height: 100px;
+  width: 100%;
   background-color: cadetblue;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -25,9 +25,9 @@ main{
 }
 h2 {
   text-align: center;
-  font-family: Gochi Hand;
+  font-family: Poppins;
   font-weight: 500;
-  font-size: 45px;
+  font-size: 34px;
   color: rgb(35, 35, 150);
 }
 
@@ -44,7 +44,6 @@ p {
   font-size: 15px;
 }
 
-
 /* .............................................................. */
 /* Section practices choice */
 
@@ -52,22 +51,23 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 450px;
+  height: 550px;
   margin-top: 10px;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   margin-right: 50px;
   margin-left: 50px;
   border-radius: 15px;
   gap: 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
 }
 
 .practices_choices_section {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
   padding: 10px;
+  position: relative;
 }
 
 .practice_CardOne,
@@ -75,16 +75,18 @@ p {
 .practice_CardThree,
 .practice_CardFour {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  height: 140px;
+  justify-content: center;
+  height: 40px;
   width: 100%;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   background-color: white;
-  padding: 20px;
-  position: relative;
+  padding: 10px;
   margin-top: 10px;
+    position: relative;
+ 
 }
 
 .practice_numberOne,
@@ -93,16 +95,18 @@ p {
 .practice_numberFour {
   background-color: coral;
   border: none;
-  border-radius: 15px;
-  height: 50px;
-  width: 100px;
+  border-radius: 45px;
+  height: 60px;
+  width: 60px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-  transform: rotate(-3deg);
-  position: absolute;
-  top: -20px;
+  font-weight: 500;
+  color: white;
+   position: absolute;
+   transform: rotate(-6deg);
+   left:-40px;
+   top:-20px;
+
 }
-
-
 
 /* .............................................................. */
 /* Section choix table */
@@ -110,24 +114,40 @@ p {
 .table_choice {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 200px;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   margin-right: 40px;
   margin-left: 40px;
   border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
 }
 .table_buttonChoice {
   font-size: 18px;
   border: none;
-  background-color: chocolate;
-  height: 50px;
-  width: 50px;
+  background-color:coral;
+  height: 60px;
+  width: 80px;
   color: white;
+  font-weight: 700;
   border-radius: 40px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
   border: solid white 3px;
+}
+
+.Buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.table_choose{
+text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: coral;
 }
 
 /* .............................................................. */
@@ -139,10 +159,11 @@ p {
   align-items: center;
   height: 100%;
   margin-top: 10px;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   margin-right: 40px;
   margin-left: 40px;
   border-radius: 15px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
 }
 
 .practice_one_choose,
@@ -178,7 +199,7 @@ p {
   padding: 20px;
   position: relative;
   margin-top: 10px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset ;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2) inset;
   gap: 8px;
 }
 
@@ -205,11 +226,9 @@ p {
   font-weight: 400;
   font-size: 24px;
   margin-top: 10px;
- 
 }
 
-
-.your_choice_firstPractice{
+.your_choice_firstPractice {
   border-radius: 20px;
   height: 50px;
   width: 50%;
@@ -221,8 +240,8 @@ p {
   text-align: center;
 }
 
-.FirstPractice_ResponseSend{
-  border-radius: 6px 12px  24px  5px;
+.FirstPractice_ResponseSend {
+  border-radius: 6px 12px 24px 5px;
   height: 50px;
   width: 50%;
   border: none;
@@ -234,5 +253,3 @@ p {
   background-color: rgb(117, 163, 248);
   color: white;
 }
-
-response_firstPractice

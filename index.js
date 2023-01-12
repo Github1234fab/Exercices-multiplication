@@ -48,53 +48,53 @@ FirstPracticeResponseSend.addEventListener("click", () => {
 
 //Gestion d'évenement en attribuant le numéro dans la variable, correspondant au numéro du bouton cliqué..........................................................................................................................................
 one.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberOne;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberOne ;
   let totalOne = randomNumber * numberOne;
   questionFirstPractice.innerHTML = `? x ${numberOne} = ${totalOne}`;
 });
 two.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberTwo;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberTwo ;
   let totalTwo = randomNumber * numberTwo;
   questionFirstPractice.innerHTML = `? x ${numberTwo} = ${totalTwo}`;
 });
 three.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberThree;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberThree ;
   let totalThree = randomNumber * numberThree;
   questionFirstPractice.innerHTML = `? x ${numberThree} = ${totalThree}`;
 });
 four.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberFour;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberFour ;
   let totalFour = randomNumber * numberFour;
   questionFirstPractice.innerHTML = `? x ${numberFour} = ${totalFour}`;
 });
 five.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberFive;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberFive ;
   let totalFive = randomNumber * numberFive;
   questionFirstPractice.innerHTML = `? x ${numberFive} = ${totalFive}`;
 });
 six.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberSix;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberSix ;
   let totalSix = randomNumber * numberSix;
   questionFirstPractice.innerHTML = `? x ${numberSix} = ${totalSix}`;
 });
 seven.addEventListener("click", () => {
-  tableChoose.innerHTML = "BOk!!Tu as choisi la table de " + numberSeven;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberSeven ;
   let totalSeven = randomNumber * numberSeven;
   questionFirstPractice.innerHTML = `? x ${numberSeven} = ${totalSeven}`;
 });
 height.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberHeight;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberHeight ;
   let totalHeight = randomNumber * numberHeight;
   questionFirstPractice.innerHTML = `? x ${numberHeight} = ${totalHeight}`;
 });
 
 nine.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberNine;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberNine ;
   let totalNine = randomNumber * numberNine;
   questionFirstPractice.innerHTML = `? x ${numberNine} = ${totalNine}`;
 });
 ten.addEventListener("click", () => {
-  tableChoose.innerHTML = "Ok!! Tu as choisi la table de " + numberTen;
+  tableChoose.innerHTML = "Tu as choisi la table de " + numberTen ;
   let totalTen = randomNumber * numberTen;
   questionFirstPractice.innerHTML = `? x ${numberTen} = ${totalTen}`;
 });
