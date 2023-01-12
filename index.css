@@ -23,7 +23,7 @@ p {
 /* .............................................................. */
 /* Section choix table */
 
-.choice_table {
+.table_choice {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -34,7 +34,7 @@ p {
   margin-left: 50px;
   border-radius: 15px;
 }
-.buttons_number {
+.table_buttonChoice {
   font-size: 18px;
   border: none;
   background-color: chocolate;
@@ -61,7 +61,7 @@ p {
   border-radius: 15px;
 }
 
-.practices_choices {
+.practices_choices_section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -77,7 +77,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 140px;
+  height: 180px;
   width: 100%;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -120,7 +120,7 @@ p {
 .practice_two_choose,
 .practice_three_choose,
 .practice_four_choose {
-    position: relative;
+  position: relative;
 }
 
 .practiceChoose_buttonNumberOne,
@@ -138,11 +138,12 @@ p {
   top: -20px;
 }
 
-.practice_one{
- display: flex;
+.first_practice {
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 140px;
+  align-items: left;
+  justify-content: left;
+  height: 200px;
   width: 400px;
   border-radius: 20px;
   background-color: coral;
@@ -151,7 +152,7 @@ p {
   margin-top: 10px;
 }
 
-.practiceOne_buttonNumber{
+.first_practice_button {
   font-size: 18px;
   border: none;
   background-color: chocolate;
@@ -163,6 +164,20 @@ p {
   border: solid white 2px;
   position: absolute;
   top: -20px;
+  left: -20px;
   border-radius: 15px;
-  transform: rotate(-3deg);
+  transform: rotate(-5deg);
+}
+
+.question_firstPractice {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 10px;
+ 
+}
+
+.practice_one_txt {
+  font-size: 18px;
 }

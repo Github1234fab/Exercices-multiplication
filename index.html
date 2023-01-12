@@ -11,29 +11,29 @@
     <title>Tables de multiplication</title>
   </head>
   <body>
-      <!-- Choix tables________________________________________________________________________________________ -->
-    <section class="choice_table">
+      <!-- tables Choice ________________________________________________________________________________________ -->
+    <section class="table_choice">
       <h3 class="choice_text">Choisi la table avec laquelle tu souhaites jouer!</h3>
       <div class="Buttons">
-        <button class="buttons_number" id="one">1</button>
-        <button class="buttons_number" id="two">2</button>
-        <button class="buttons_number" id="three">3</button>
-        <button class="buttons_number" id="four">4</button>
-        <button class="buttons_number" id="five">5</button>
-        <button class="buttons_number" id="six">6</button>
-        <button class="buttons_number" id="seven">7</button>
-        <button class="buttons_number" id="height">8</button>
-        <button class="buttons_number" id="nine">9</button>
-        <button class="buttons_number" id="ten">10</button>
+        <button class="table_buttonChoice" id="one">1</button>
+        <button class="table_buttonChoice" id="two">2</button>
+        <button class="table_buttonChoice" id="three">3</button>
+        <button class="table_buttonChoice" id="four">4</button>
+        <button class="table_buttonChoice" id="five">5</button>
+        <button class="table_buttonChoice" id="six">6</button>
+        <button class="table_buttonChoice" id="seven">7</button>
+        <button class="table_buttonChoice" id="height">8</button>
+        <button class="table_buttonChoice" id="nine">9</button>
+        <button class="table_buttonChoice" id="ten">10</button>
       </div>
       <p class="table_choose" id="tableChoose"></p>
     </section>
 
-    <!-- Choix practices________________________________________________________________________________________ -->
+    <!-- Practice Choice________________________________________________________________________________________ -->
 
     <section class="practice_choice">
-      <h3 class="choice_practice_txt">Maintenant, choisi un des quatre jeux suivants:</h3>
-         <section class="practices_choices">
+      <h3 class="practice_choice_txt">Maintenant, choisi un des quatre jeux suivants:</h3>
+         <section class="practices_choices_section">
       <div class="practice_CardOne">
         <button class="practice_numberOne" id="one">Jeux N°1</button>
         <p class="practice_one_txt">Le premier chiffre de la multiplication est caché. À toi de le deviner!</p>
@@ -57,21 +57,24 @@
       </section>
     </section>
 
-  <!-- Exercices choisis________________________________________________________________________________________ -->
+  <!-- First practice________________________________________________________________________________________ -->
 
     <section class="practices_chooses">
       <h3 class="choose_practice_txt">C'est à toi de jouer maintenant! <br> Trouve le chiffre manquant et prends ton temps pour répondre!</h3>
         
-      <div class="practice_one">
-          <button class="practiceOne_buttonNumber" id="one">Jeux N°2</button>
-        <div id="questionPracticeOne" class="question_practiceOne"></div>
-        <p class="practice_one_txt">Tu vas trouver, concentre-toi bien!</p>
-          <input class="your_choice_one" id="chooseOne" type = "number"></input>
+      <div class="first_practice">
+          <button class="first_practice_button" id="one">Jeux N°1</button>
+            <p class="first_practice_txt">Tu vas trouver, concentre-toi bien!</p>
+        <div id="questionFirstPractice" class="question_firstPractice"></div>
+        <p class="first_practice_txt">Quelle est ta réponse?</p>
+          <input class="your_choice_firstPractice" id="ResponseFirstPractice" type = "number"></input>
+          <button id="FirstPracticeResponseSend">Clique pour savoir si tu as raison!!</button>
+          <p class="response_firstPractice" id="responseFirstPractice"></p>
       </div>
 
 
 
-      
+
       <!-- <div class="practice_two_choose">
         <button class="practiceChoose_buttonNumberTwo" id="one">Jeux N°2</button>
         <div id="questionPracticeTwo"></div>
